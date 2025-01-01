@@ -1,0 +1,16 @@
+# .gitignore
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment variables
+.env
+
+# Go modules
+/vendor/
+
+# IDE directories
+.vscode/
