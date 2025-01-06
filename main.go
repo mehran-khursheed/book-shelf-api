@@ -11,7 +11,8 @@ import (
 func main() {
 	// Initialize the database
 	//db.ConnectDatabase("mongodb+srv://mehrankhursheed123:Mehranz1234@medipulse.j8y4z.mongodb.net/", "bookShelf")
-	db.ConnectDatabase("mongodb://mehran:Mehranz1234@localhost:27017", "bookShelf")
+	db.ConnectDatabase("mongodb://localhost:27017", "bookShelf")
+	
 
 	db.InitializeCollections("books")
 
